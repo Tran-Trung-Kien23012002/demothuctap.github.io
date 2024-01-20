@@ -1,0 +1,13 @@
+<decorators defaultdir="/WEB-INF">
+
+    <decorator name="homeDecorator" page="/decorators/homeDecorator.jsp">
+        <pattern>/*</pattern>
+        <!-- Thêm các pattern khác nếu cần -->
+    </decorator>
+    
+    <decorator name="adminDecorator" page="/decorators/adminDecorator.jsp">
+        <pattern>/admin*</pattern>
+        <!-- Thêm các pattern khác nếu cần -->
+    </decorator>
+
+</decorators>

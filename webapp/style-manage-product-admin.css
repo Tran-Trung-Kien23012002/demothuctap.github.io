@@ -1,0 +1,37 @@
+/* Custom styles for pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 10px 15px; /* Điều chỉnh padding để làm cho nút to hơn */
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007BFF;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.pagination a.prev,
+.pagination a.next {
+    padding: 10px 20px; /* Điều chỉnh padding để làm cho nút Previous và Next to hơn */
+}
+
+/* Điều chỉnh khoảng cách giữa các nút */
+.pagination a:not(.prev):not(.next) {
+    margin: 0 3px;
+}
+
+/* Custom styles for product images */
+.table .img-product-manage {
+    max-width: 50px; /* Điều chỉnh chiều rộng tối đa của ảnh */
+    height: auto; /* Giữ tỉ lệ khung hình khi điều chỉnh chiều rộng */
+}
